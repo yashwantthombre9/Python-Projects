@@ -1,3 +1,9 @@
+### software and hardware requirements
+
+# 1) download 'haarcascade_frontalface_default.xml' file
+# 2) install opencv2 python framework in order to use functionality of the same
+
+
 import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
